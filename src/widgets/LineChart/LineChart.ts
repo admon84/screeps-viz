@@ -1,7 +1,7 @@
 import { calculateScaleFromSeries, chartSpaceToRoomPosition, scaleToChartSpace } from "./ChartCalculations";
 
 import { ConfiguredWidget } from "../../Widget";
-import { Timeseries } from "metrics/Timeseries";
+import { Timeseries } from "../../metrics/Timeseries";
 import { viz } from "../../Viz";
 
 export interface LineChartSeriesConfig {

@@ -1,5 +1,5 @@
 /// <reference types="dist" />
-import { Timeseries } from "metrics/Timeseries";
+import { Timeseries } from "../../metrics/Timeseries";
 export interface LineChartSeriesConfig {
     label: string;
     color?: string;
